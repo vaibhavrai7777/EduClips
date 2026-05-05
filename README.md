@@ -4,20 +4,20 @@
 
 ![EduClips Demo](https://via.placeholder.com/900x400/6C63FF/FFFFFF?text=EduClips+AI+%7C+Turn+Lectures+into+Reels)
 
-## ✨ What It Does
+##  What It Does
 
 1. **Upload** any lecture video (MP4, MOV, AVI, WEBM — up to 500MB)
 2. **Whisper AI** transcribes the entire audio with timestamps
 3. **GPT-4o** scores every 30–60 second segment for hook strength, clarity, and educational value
 4. **FFmpeg** cuts the best clips and exports them in:
-   - 📱 Vertical (9:16) for Instagram Reels & YouTube Shorts
-   - 🖥️ Horizontal (16:9) for YouTube
+   -  Vertical (9:16) for Instagram Reels & YouTube Shorts
+   -  Horizontal (16:9) for YouTube
 5. **Subtitles** are automatically burned into both formats
 6. **AI generates** a student-friendly title, description, and thumbnail concept for each clip
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 educlips/
@@ -51,7 +51,7 @@ educlips/
 
 ---
 
-## 🚀 Quick Start (Local)
+## Quick Start (Local)
 
 ### Prerequisites
 
@@ -117,7 +117,7 @@ Open your browser at: **http://localhost:8000**
 
 ---
 
-## 🌍 Deployment (Free Tier)
+##  Deployment (Free Tier)
 
 ### Option A: Render.com (Recommended — Free)
 
@@ -222,7 +222,7 @@ Deploy this container to:
       "start": 45.5,
       "end": 98.2,
       "duration": 52.7,
-      "title": "Why Newton's First Law Matters 🎯",
+      "title": "Why Newton's First Law Matters ",
       "description": "This clip explains Newton's First Law with a real-life car example...",
       "thumbnail_text": "Objects in Motion!",
       "hashtags": "#Physics #Class9 #CBSE #Newton #Science",
@@ -250,7 +250,7 @@ Deploy this container to:
 
 ---
 
-## 💰 Cost Estimate
+##  Cost Estimate
 
 For a **60-minute lecture video**:
 
@@ -264,7 +264,7 @@ For a **60-minute lecture video**:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -278,7 +278,7 @@ For a **60-minute lecture video**:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests welcome! Especially interested in:
 - Face detection for smarter 9:16 cropping (MediaPipe)
@@ -288,7 +288,7 @@ Pull requests welcome! Especially interested in:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — use freely for educational purposes.
 
