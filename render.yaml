@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: educlips-api
+    runtime: python
+    rootDir: backend
+    buildCommand: |
+      apt-get update && apt-get install -y ffmpeg
+      pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: USE_OPENAI_API
+        value: "true"
+      - key: NUM_CLIPS
+        value: "5"
+      - key: CLIP_MIN_SECONDS
+        value: "20"
+      - key: CLIP_MAX_SECONDS
+        value: "60"
+    disk:
+      name: educlips-storage
+      mountPath: /opt/render/project/src/backend
+      sizeGB: 10
